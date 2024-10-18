@@ -1,7 +1,7 @@
 @extends('components.layout')
 
 @section('content')
-<section class="projects section-padding" id="section_4">
+<section class="services section-padding" id="section_3">
     <style>
         .hover-effect {
             transition: transform 0.3s;
@@ -88,5 +88,11 @@
             </div>
         </div>
     </div>
+
+<!-- Go Back Button -->
+<div class="col-lg-12 text-center mb-5">
+                <a href="{{ route('projects') }}" class="btn btn-success">Go Back to Projects</a>
+            </div>
+
 </section>
 @endsection

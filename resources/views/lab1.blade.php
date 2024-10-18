@@ -1,9 +1,9 @@
 @extends('components.layout')
 
 @section('content')
-<section class="projects section-padding" id="section_4">
+<section class="services section-padding" id="section_3">
 
-<style>
+    <style>
         .hover-effect {
             transition: transform 0.3s;
         }
@@ -16,7 +16,7 @@
             text-align: center;
         }
     </style>
- 
+    
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-12 mx-auto">
@@ -73,9 +73,13 @@
                 <img alt="Shop Page" class="img-fluid mb-4 hover-effect" src="images/lab/lab1-shop.png"/>
             </div>
 
+            <!-- Go Back Button -->
+            <div class="col-lg-12 text-center mb-5">
+                <a href="{{ route('projects') }}" class="btn btn-success">Go Back to Projects</a>
+            </div>
+
         </div>
     </div>
 </section>
-
 
 @endsection
